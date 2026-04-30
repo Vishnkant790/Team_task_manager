@@ -1,0 +1,46 @@
+Team Task Manager Demo Script
+
+Duration target: 2 to 5 minutes
+
+1. Introduction
+Hello, this is my Team Task Manager full-stack web application.
+It helps teams create projects, add members, assign tasks, and track progress.
+
+2. Tech Stack
+I used Python for the backend REST APIs, SQL database relationships, and a simple HTML, CSS, JavaScript frontend.
+For local development it uses SQLite, and on Railway it is ready to use PostgreSQL through DATABASE_URL.
+
+3. Authentication
+First I will create a user account using signup.
+The app validates email and password, hashes the password, and creates a secure database-backed session.
+
+4. Project Management
+After login, I can create a project.
+The user who creates the project automatically becomes the Admin of that project.
+
+5. Team and Roles
+Admin can add an existing user to the project by email.
+There are two roles: ADMIN and MEMBER.
+Admin can manage members and tasks.
+Member can view tasks and update the status of tasks assigned to them.
+
+6. Task Management
+Admin can create a task with title, description, assignee, due date, priority, and status.
+Tasks can be Todo, In Progress, or Done.
+
+7. Member Flow
+Now I login as the member user.
+The member can see the assigned project and update the status of assigned tasks.
+Members cannot delete tasks or manage other project settings.
+
+8. Dashboard
+The dashboard shows total projects, total tasks, completed tasks, and overdue tasks.
+This helps the team track progress quickly.
+
+9. Deployment
+The app is deployed on Railway and uses PostgreSQL in production.
+The GitHub repository contains the source code, README, API routes, and deployment instructions.
+
+Closing Line:
+This completes the Team Task Manager app with authentication, REST APIs, SQL database relationships, validations, role-based access control, dashboard, GitHub repository, and Railway deployment.
+

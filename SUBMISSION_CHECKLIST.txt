@@ -1,0 +1,39 @@
+Submission Checklist
+
+1. Local app working
+   Done: Signup, login, projects, team members, roles, tasks, and dashboard.
+
+2. GitHub repository
+   Create an empty GitHub repository named:
+   team-task-manager
+
+   After creating it, run:
+   git remote add origin YOUR_GITHUB_REPO_URL
+   git push -u origin main
+
+3. Railway deployment
+   Open Railway.
+   Create a new project from the GitHub repository.
+   Add PostgreSQL.
+   Set environment variables:
+   DATABASE_URL=${{Postgres.DATABASE_URL}}
+   COOKIE_SECURE=1
+
+4. README.txt
+   Replace these lines:
+   Live Application URL:
+   Add your Railway URL here after deployment.
+
+   GitHub Repository:
+   Add your GitHub repository link here after pushing the code.
+
+5. Demo video
+   Record 2 to 5 minutes.
+   Show signup, login, project creation, add member, create task, member status update, dashboard, and deployment URL.
+
+6. Final submission fields
+   Live Application URL: Railway URL
+   GitHub Repository Link: GitHub repo URL
+   README file in .txt: upload README.txt
+   Demo Video with explanation: upload recorded video
+
