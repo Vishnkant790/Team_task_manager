@@ -72,5 +72,4 @@ POST /api/projects/:id/tasks
 PATCH /api/tasks/:id
 DELETE /api/tasks/:id
 
-Demo Video Explanation:
-This is a Team Task Manager full-stack app. I built authentication, project management, team roles, task assignment, and dashboard tracking. Users can signup/login, create projects, add team members, assign tasks, and track task progress. The app has Admin and Member roles. Admin can manage the project and tasks, while Members can update the status of their assigned tasks. The app uses REST APIs and a SQL database. It is deployed on Railway with PostgreSQL.
+
