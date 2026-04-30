@@ -1,0 +1,13 @@
+.venv/
+.tmp/
+Python/
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+*.db-journal
+data/
+.env
+.DS_Store
+server.out.log
+server.err.log
