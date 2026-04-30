@@ -88,13 +88,3 @@ DELETE /api/tasks/:id
 - `ADMIN` can add members, create tasks, assign tasks, update tasks, and delete tasks.
 - `MEMBER` can view project tasks and update status only for tasks assigned to them.
 
-## Demo Video Script
-
-1. Show signup and login.
-2. Create a project.
-3. Explain that the creator becomes Admin.
-4. Add an existing user as Member by email.
-5. Create and assign a task with due date and priority.
-6. Login as Member and update assigned task status.
-7. Show dashboard counts and overdue tracking.
-8. Mention Railway deployment and PostgreSQL database.
