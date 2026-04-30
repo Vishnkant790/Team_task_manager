@@ -1,7 +1,7 @@
 Team Task Manager
 
 Live Application URL:
-Add your Railway URL here after deployment.
+teamtaskmanager-production-6d1b.up.railway.app
 
 GitHub Repository:
 https://github.com/Vishnkant790/Team_task_manager
