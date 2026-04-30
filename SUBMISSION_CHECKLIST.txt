@@ -4,12 +4,8 @@ Submission Checklist
    Done: Signup, login, projects, team members, roles, tasks, and dashboard.
 
 2. GitHub repository
-   Create an empty GitHub repository named:
-   team-task-manager
-
-   After creating it, run:
-   git remote add origin YOUR_GITHUB_REPO_URL
-   git push -u origin main
+   Done:
+   https://github.com/Vishnkant790/Team_task_manager
 
 3. Railway deployment
    Open Railway.
@@ -36,4 +32,3 @@ Submission Checklist
    GitHub Repository Link: GitHub repo URL
    README file in .txt: upload README.txt
    Demo Video with explanation: upload recorded video
-
