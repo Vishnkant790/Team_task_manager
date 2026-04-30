@@ -6,6 +6,7 @@ __pycache__/
 *.sqlite3
 *.db
 *.db-journal
+*.zip
 data/
 .env
 .DS_Store
