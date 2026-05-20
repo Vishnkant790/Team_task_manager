@@ -3,11 +3,9 @@ Team Task Manager
 Live Application URL:
 teamtaskmanager-production-6d1b.up.railway.app
 
-GitHub Repository:
-https://github.com/Vishnkant790/Team_task_manager
-
 Overview:
 Team Task Manager is a full-stack web application where users can signup, login, create projects, add team members, assign tasks, and track progress. It includes REST APIs, SQL database relationships, validations, authentication, and role-based access control.
+Understanding the real world working model of other Business
 
 Tech Stack:
 - Python backend
